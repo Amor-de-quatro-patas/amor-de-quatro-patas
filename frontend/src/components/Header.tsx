@@ -13,10 +13,10 @@ export default function Header() {
         </a>
 
         <a href="/">
-          <img src="/images/Logo.png" alt="logo"/>
+          <img src="/images/Logo.png" alt="logo" />
         </a>
 
-        <a href="">
+        <a href="#">
           <AiOutlineUser />
         </a>
       </div>
