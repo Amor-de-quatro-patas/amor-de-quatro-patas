@@ -1,0 +1,28 @@
+.header {
+  background: var(--white);
+  border-bottom: 1px solid var(--blue-600);
+
+  height: 5.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    width: 5rem;
+  }
+
+  a {
+    align-self: center;
+    font-size: 2rem;
+
+    &:first-child {
+      margin-left: 1rem;
+    }
+
+    &:last-child {
+      margin-right: 1rem;
+    }
+  }
+}
